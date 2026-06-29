@@ -37,6 +37,10 @@ QA_chatbot/
 | POST | `/upload` | Upload a PDF file |
 | POST | `/query` | Ask a question about uploaded PDFs |
 
+## Deployment
+Deployed on HuggingFace Spaces using Docker.
+The `Dockerfile` defines the container environment — installs dependencies from `requirements.txt` and starts the FastAPI server on port 7860.
+
 ## Local Development
 ```bash
 # Install Ollama and pull model
